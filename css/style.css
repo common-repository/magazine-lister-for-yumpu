@@ -1,0 +1,30 @@
+.flippingBookCollection{
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	text-align:center
+}
+
+
+.flippingBookCollection>div.yumpuPlayerDocs>a>img	{
+	max-height: 258px;
+}
+.flippingBookCollection>div.yumpuPlayerDocs{
+	text-align:center;
+	margin:0 15px 25px 15px;
+	padding:20px;
+	color:#000
+}
+.flippingBookCollection>div.yumpuPlayerDocs>h3{
+	margin:0 0 7px 0;
+	font-size:1.2em;
+	color:#000
+}
+.flippingBookCollection>div.yumpuPlayerDocs>p{
+	margin:7px 0 0 0
+}
+
+.flippingBookCollection>div.yumpuPlayerDocs>a.yumpu_hierBlaetternLink	{
+	display	: block;
+}
